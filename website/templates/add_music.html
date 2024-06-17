@@ -1,0 +1,6 @@
+{% extends "base.html" %} 
+{% block title %}Добавить Трек{% endblock %}
+{% block content %}
+{% from 'macros.html' import music_form %}
+{{ music_form(music, styles) }}
+{% endblock %}
